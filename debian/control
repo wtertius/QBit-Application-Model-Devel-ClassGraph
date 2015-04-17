@@ -1,12 +1,14 @@
-Source: libqbit-application-model-devel-classgraph-perl
+Source: libtertiusqbit-application-model-devel-classgraph-perl
 Section: perl
 Priority: extra
-Maintainer: Sergei Svistunov <sergei-svistunov@yandex.ru>
-Build-Depends: debhelper (>= 8.0.0), perl, libqbit-perl, libqbit-application-perl, libqbit-graphviz-perl
+Maintainer: Dmitry Lukiyanchuk <wtertius@gmail.com>
+Build-Depends: debhelper (>= 8.0.0), perl, libtertiusqbit-perl, libtertiusqbit-application-perl, libtertiusqbit-graphviz-perl
 Standards-Version: 3.9.4
 
-Package: libqbit-application-model-devel-classgraph-perl
+Package: libtertiusqbit-application-model-devel-classgraph-perl
 Architecture: all
-Depends: ${shlibs:Depends}, ${misc:Depends}, ${perl:Depends}, perl, libqbit-perl, libqbit-application-perl, libqbit-graphviz-perl
+Depends: ${shlibs:Depends}, ${misc:Depends}, ${perl:Depends}, perl, libtertiusqbit-perl, libtertiusqbit-application-perl, libtertiusqbit-graphviz-perl
+Conflicts: libqbit-application-model-devel-classgraph-perl
+Replaces: libqbit-application-model-devel-classgraph-perl
 Description: Class for drawing QBit Application classes graph.
  Class for drawing QBit Application classes graph.
